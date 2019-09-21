@@ -29,6 +29,6 @@ export const operators = [
   }
 ];
 
-export const specials = ["C", "+/-", "%"];
+export const specialss = ["C", "+/-", "%"];
 
 
