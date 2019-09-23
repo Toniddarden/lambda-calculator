@@ -15,7 +15,7 @@ const Numbers = (props) => {
 const [nums, setNums] = useState(numbers);
 
 const plusOne = () => {
-  setNums(nums + 1);
+  setNums(nums);
 }
 
 // const numberButtons = numbers.map(numberDataObject => (
@@ -29,7 +29,7 @@ const plusOne = () => {
        it any props needed by the child component*/}
 
        {nums.map(num =>{
-         return <NumberButton numberFunction={plusOne} num={num} />
+         return <NumberButton numberFunction={plusOne} num={num}  />
        })}
        
    
