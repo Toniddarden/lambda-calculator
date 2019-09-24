@@ -1,0 +1,55 @@
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgb(34, 105, 105);
+    font-size: 2rem;
+    color: white;
+    margin: 6px;
+    
+}
+
+.numberButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgb(3, 7, 134);
+    font-size: 2rem;
+    color: white;
+    margin: 6px;
+}
+
+.specialButtons {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgb(36, 85, 145);
+    font-size: 2rem;
+    color: white;
+    margin: 6px;
+}
+
+.operators{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 2rem;
+    color: white;
+    margin: 6px;
+    padding-right: 50px;
+}
+
+.special-button{
+    color:rgb(22, 85, 141);
+    
+    
+}
+.row{
+    display:flex;
+    padding-left: 30px;
+   
+}
+.column{
+    width: 100%;
+    
+}
